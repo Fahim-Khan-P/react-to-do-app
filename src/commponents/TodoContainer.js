@@ -1,63 +1,65 @@
+/* eslint-disable no-param-reassign */
+/* eslint-disable react/no-access-state-in-setstate */
+/* eslint-disable react/destructuring-assignment */
+/* eslint-disable react/state-in-constructor */
 import React from 'react';
-import TodosList from './TodosList '
+import TodosList from './TodosList ';
 import Header from './Header';
 import InputTodo from './InputTodo';
 
 class TodoContainer extends React.Component {
-
   state = {
     todos: [
       {
         id: 1,
         title: 'go to excercise!',
-        completed: false
+        completed: false,
       },
     ],
-  }
+  };
 
-  handleChange = id => {
-    this.setState(prevState => ({
-      todos: prevState.todos.map(todo => {
+  handleChange = (id) => {
+    this.setState((prevState) => ({
+      todos: prevState.todos.map((todo) => {
         if (todo.id === id) {
           return {
             ...todo,
             completed: !todo.completed,
-          }
+          };
         }
-        return todo
+        return todo;
       }),
-    }))
+    }));
   };
 
   delTodo = (id) => {
-    this.setState(prevState => ({
+    this.setState((prevState) => ({
       // deferent code mathod used then toturia
-      todos: prevState.todos.filter(todo => todo.id !== id)
-    }))
+      todos: prevState.todos.filter((todo) => todo.id !== id),
+    }));
   }
 
   setUpdate = (updatedTitle, id) => {
     this.setState({
-      todos: this.state.todos.map(todo => {
+      todos: this.state.todos.map((todo) => {
         if (todo.id === id) {
-          todo.title = updatedTitle
+          todo.title = updatedTitle;
         }
-        return todo
+        return todo;
       }),
-    })
-  }
+    });
+  };
 
   addTodoItem = (title) => {
     const newTodo = {
       id: this.state.todos.length + 1,
-      title: title,
-      completed: false
-    }
+      title,
+      completed: false,
+    };
     this.setState({
-      todos: [...this.state.todos, newTodo]
-    })
-
-  }
+      todos: [...this.state.todos, newTodo],
+    });
+  };
 
   render() {
     return (
@@ -77,4 +79,4 @@ class TodoContainer extends React.Component {
   }
 }
 
-export default TodoContainer
+export default TodoContainer;
