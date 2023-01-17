@@ -9,27 +9,11 @@ class TodoContainer extends React.Component {
     todos: [
       {
         id: 1,
-        title: 'my first name',
-        completed: true
-      },
-      {
-        id: 2,
-        title: 'my first name',
+        title: 'go to excercise!',
         completed: false
       },
-      {
-        id: 3,
-        title: 'my first name',
-        completed: true
-      },
-      {
-        id: 4,
-        title: 'my first name',
-        completed: false
-      }
     ],
   }
-
 
   handleChange = id => {
     this.setState(prevState => ({

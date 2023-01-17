@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaPlusCircle } from "react-icons/fa"
 
 class InputTodo extends React.Component {
 
@@ -13,11 +14,15 @@ class InputTodo extends React.Component {
   };
 
   handleSubmit = e => {
-    e.preventDefault();
-    this.props.addTodoProps(this.state.title);
-    this.setState({
-      title: '',
-    })
+    e.preventDefault()
+    if (this.state.title.trim()) {
+      this.props.addTodoProps(this.state.title)
+      this.setState({
+        title: "",
+      })
+    } else {
+      return console.error('no title');
+    }
   }
 
   render() {
@@ -31,7 +36,11 @@ class InputTodo extends React.Component {
           name="title"
           onChange={this.onChange}
         />
-        <button className="input-submit">Submit</button>
+        <button className="input-submit">
+          <FaPlusCircle
+            style={{ color: "darkcyan", fontSize: "20px", marginTop: "2px" }}
+          />
+        </button>
       </form>
     )
   }
