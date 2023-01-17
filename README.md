@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 <div align="center">
 
-  <h3><b>math-magician</b></h3>
+  <h3><b>Todo App</b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -26,11 +26,11 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 math-magician <a name="about-project"></a>
+# 📖 Todo App <a name="about-project"></a>
 
-> This is the math-magician project for react JS.
+> This is a Todo list simple App built in react JS.
 
-**math-magician** is a...
+**Todo App** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -43,6 +43,7 @@
     <li><a href="https://html.com/">HTML</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
     <li><a href="https://www.javascript.com/">JavaScript</a></li>   
+    <li><a href="https://ibaslogic.com/react-tutorial-for-beginners/">JavaScript</a></li>  
   </ul>
 </details>
 
@@ -74,10 +75,10 @@ To get a local copy up and running follow these simple example steps.
 
 ### Visit And Open Files
 1-Visit Repo
-[Visit Repo](https://github.com/Fahim-Khan-P/Math-magician)
+[Visit Repo](https://github.com/Fahim-Khan-P/react-to-do-app)
 
 2-Download Repo
-[Download Repo](https://github.com/Fahim-Khan-P/Math-magician/archive/refs/heads/main.zip)
+[Download Repo](https://github.com/Fahim-Khan-P/react-to-do-app.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,7 +93,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Calculator need to integrate
+<!-- > Calculator need to integrate -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,7 +101,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Fahim-Khan-P/Math-magician/issues).
+Feel free to check the [issues page](https://github.com/Fahim-Khan-P/react-to-do-app/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
