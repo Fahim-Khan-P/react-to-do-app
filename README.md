@@ -2,10 +2,10 @@
 <div align="center">
 
   <h3><b>Todo App</b></h3>
+  <p>This is a todo app that you can manage your daily tasks with CRUD operations</p>
 </div>
 
 # 📗 Table of Contents
-
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
@@ -30,9 +30,9 @@
 
 > This is a Todo list simple App built in react JS.
 
-**Todo App** is a...
+**Todo App** is a a todo app that you can manage your daily tasks with CRUD operations
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With <a name="built-with">React js</a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -67,7 +67,7 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone this repository or download the Zip folder:
 
-**``https://github.com/Fahim-Khan-P/Math-magician.git``**
+**``https://github.com/Fahim-Khan-P/react-to-do-app.git``**
 
 2. Navigate to the location of the folder in your machine:
 
